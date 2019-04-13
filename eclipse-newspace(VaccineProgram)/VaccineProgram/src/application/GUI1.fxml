@@ -33,14 +33,14 @@
                         <Font name="Arial Rounded MT Bold" size="50.0" />
                      </font>
                   </Text>
-                  <Text fill="#63b90d" layoutX="165.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Posh">
+                  <Text fill="#26b126" layoutX="165.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Posh">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="50.0" />
                      </font>
                   </Text>
-                  <Button layoutX="23.0" layoutY="125.0" mnemonicParsing="false" style="-fx-background-color: #63b90d;" text="Post" textFill="WHITESMOKE">
+                  <Button layoutX="23.0" layoutY="127.0" mnemonicParsing="false" style="-fx-background-color: #26b126;" text="Post" textFill="WHITESMOKE">
                      <font>
-                        <Font size="14.0" />
+                        <Font size="16.0" />
                      </font></Button>
                </children>
             </Pane>
@@ -59,8 +59,18 @@
                         <Font size="14.0" />
                      </font>
                   </Text>
-                  <Button layoutX="92.0" layoutY="278.0" mnemonicParsing="false" style="-fx-background-color: #63b90d;" text="Clothing" textFill="WHITESMOKE" />
+                  <Button layoutX="69.0" layoutY="272.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="109.0" style="-fx-background-color: #26b126;" text="Clothing" textFill="WHITESMOKE">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
                   <Line endX="123.0" layoutX="112.0" layoutY="259.0" startX="-100.0" stroke="DIMGRAY" />
+                  <Rectangle arcHeight="25.0" arcWidth="25.0" height="157.0" layoutX="11.0" layoutY="101.0" stroke="BLACK" strokeType="INSIDE" width="224.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="124.0" layoutX="11.0" layoutY="136.0" stroke="BLACK" strokeType="INSIDE" translateY="-1.0" width="224.0" />
+                  <ImageView fitHeight="124.0" fitWidth="131.0" layoutX="60.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../Pictures/TShirt.jpg" />
+                     </image>
+                  </ImageView>
                </children>
             </Pane>
             <Pane prefHeight="250.0" prefWidth="289.0" translateY="25.0">
@@ -68,9 +78,22 @@
                   <Rectangle arcHeight="25.0" arcWidth="25.0" blendMode="DARKEN" fill="WHITESMOKE" height="225.0" stroke="DIMGRAY" strokeType="INSIDE" translateX="31.75" translateY="100.0" width="225.0">
                      <effect>
                         <DropShadow />
-                     </effect></Rectangle>
-                  <Button layoutX="103.0" layoutY="281.0" mnemonicParsing="false" style="-fx-background-color: #63b90d;" text="Applications" textFill="WHITESMOKE" />
+                     </effect>
+                  </Rectangle>
+                  <Button layoutX="91.0" layoutY="270.0" mnemonicParsing="false" style="-fx-background-color: #26b126;" text="Applications" textFill="WHITESMOKE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
                   <Line endX="123.0" layoutX="132.0" layoutY="259.0" startX="-100.0" stroke="DIMGRAY" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="124.0" layoutX="32.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="225.0" />
+                  <Rectangle arcHeight="25.0" arcWidth="25.0" height="147.0" layoutX="32.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" translateY="-1.0" width="225.0" />
+                  <ImageView fitHeight="124.0" fitWidth="134.0" layoutX="83.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../Pictures/TV.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="-76.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please do not post any items that do not relate to clothing, appliances, or furniture." />
                </children>
             </Pane>
             <Pane prefHeight="436.0" prefWidth="288.0" translateY="25.0">
@@ -78,14 +101,26 @@
                   <Rectangle arcHeight="25.0" arcWidth="25.0" blendMode="DARKEN" fill="WHITESMOKE" height="225.0" stroke="DIMGRAY" strokeType="INSIDE" translateX="21.75" translateY="100.0" width="225.0">
                      <effect>
                         <DropShadow />
-                     </effect></Rectangle>
+                     </effect>
+                  </Rectangle>
                   <Text fill="WHITESMOKE" layoutX="86.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Furniture">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </Text>
-                  <Button layoutX="102.0" layoutY="290.0" mnemonicParsing="false" style="-fx-background-color: #63b90d;" text="Furniture" textFill="WHITESMOKE" translateY="-8.0" />
+                  <Button layoutX="91.0" layoutY="278.0" mnemonicParsing="false" style="-fx-background-color: #26b126;" text="Furniture" textFill="WHITESMOKE" translateY="-8.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
                   <Line endX="123.0" layoutX="122.0" layoutY="259.0" startX="-100.0" stroke="DIMGRAY" />
+                  <Rectangle arcHeight="25.0" arcWidth="25.0" height="157.0" layoutX="22.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" width="225.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="124.0" layoutX="22.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="225.0" />
+                  <ImageView fitHeight="134.0" fitWidth="124.0" layoutX="72.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../Pictures/Chair.jpg" />
+                     </image>
+                  </ImageView>
                </children>
             </Pane>
          </children>

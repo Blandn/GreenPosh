@@ -22,7 +22,6 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 
-
 public class Main extends Application implements Initializable {
 	@FXML
 	Button myButton;
@@ -43,9 +42,7 @@ public class Main extends Application implements Initializable {
 	}
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-	
 	}
-		
 	public static void main(String[] args) {
 		launch(args);
 		}

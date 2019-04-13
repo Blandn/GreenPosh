@@ -16,9 +16,9 @@
    <children>
       <BorderPane prefHeight="670.0" prefWidth="866.0">
          <top>
-            <HBox prefHeight="100.0" prefWidth="859.0" style="-fx-background-color: MediumTurquoise;" BorderPane.alignment="CENTER">
+            <HBox prefHeight="100.0" prefWidth="859.0" style="-fx-background-color: #63b90d;" BorderPane.alignment="CENTER">
                <children>
-                  <Text fill="WHITESMOKE" stroke="#868686" strokeType="OUTSIDE" strokeWidth="0.0" text="ChildCare">
+                  <Text fill="WHITESMOKE" stroke="#868686" strokeType="OUTSIDE" strokeWidth="0.0" text="GreenPosh">
                      <font>
                         <Font name="Arial Rounded MT Bold" size="30.0" />
                      </font>
@@ -31,7 +31,7 @@
                         <Insets />
                      </opaqueInsets>
                      <HBox.margin>
-                        <Insets left="630.0" top="10.0" />
+                        <Insets left="615.0" top="10.0" />
                      </HBox.margin>
                      <font>
                         <Font name="Arial Rounded MT Bold" size="20.0" />
